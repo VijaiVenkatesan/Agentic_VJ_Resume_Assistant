@@ -995,7 +995,46 @@ if prompt := st.chat_input("Ask about experience, skills, projects... (Agent wil
         "reasoning": result["reasoning"]
     })
 
-# Welcome
+st.markdown("""
+<style>
+.welcome-card {
+    background: linear-gradient(135deg, #0d2137 0%, #1a3a5c 100%) !important;
+    border-radius: 15px !important;
+    padding: 25px !important;
+    margin: 20px 0 !important;
+    border-left: 5px solid #4CAF50 !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+}
+
+.welcome-card h3 {
+    color: #ffffff !important;
+    font-size: 1.4rem !important;
+    margin-bottom: 15px !important;
+    font-weight: 700 !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.welcome-card p {
+    color: #ffffff !important;
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+    margin: 8px 0 !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) !important;
+}
+
+.welcome-card strong {
+    color: #5dde6e !important;
+    font-weight: 600 !important;
+}
+
+.welcome-card em {
+    color: #ffe44d !important;
+    font-style: normal !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+# Welcome Card
 if not st.session_state.messages:
     st.markdown(f"""
     <div class="welcome-card">
