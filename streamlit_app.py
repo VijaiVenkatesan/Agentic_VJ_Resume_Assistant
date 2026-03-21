@@ -65,7 +65,7 @@ RESUME_DATA = {
         "phone": "+91 8825947952",
         "linkedin": "linkedin.com/in/vijai-v-2b89841a3"
     },
-    "summary": "Results-driven AI/ML Engineer with nearly 7 years of experience in designing and deploying scalable AI solutions, including Generative AI and Large Language Models. Expertise in Python, machine learning, natural language processing, and intelligent document processing.",
+    "summary": "Results-driven AI/ML Engineer with nearly 7+ years of experience in designing and deploying scalable AI solutions, including Generative AI and Large Language Models. Expertise in Python, machine learning, natural language processing, and intelligent document processing.",
     "experience": [
         {
             "title": "Associate Consultant - AI/ML",
@@ -617,7 +617,7 @@ VIJAI VENKATESAN
 Contact: vijaibt1@gmail.com | +91 8825947952 | linkedin.com/in/vijai-v-2b89841a3
 
 PROFESSIONAL SUMMARY
-Results-driven AI/ML Engineer with nearly 7 years of experience in designing and deploying scalable AI solutions, including Generative AI and Large Language Models. Expertise in Python, machine learning, natural language processing, and intelligent document processing.
+Results-driven AI/ML Engineer with nearly 7+ years of experience in designing and deploying scalable AI solutions, including Generative AI and Large Language Models. Expertise in Python, machine learning, natural language processing, and intelligent document processing.
 
 WORK EXPERIENCE
 
@@ -848,7 +848,7 @@ with st.sidebar:
     
     st.markdown("### 📊 Quick Stats")
     c1, c2 = st.columns(2)
-    c1.metric("Experience", "~7 Years")
+    c1.metric("Experience", "~7+ Years")
     c2.metric("Projects", "12+")
     c3, c4 = st.columns(2)
     c3.metric("Certs", "9+")
